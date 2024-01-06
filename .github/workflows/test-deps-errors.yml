@@ -1,0 +1,8 @@
+name: Test Dependencies And Errors
+
+on: [pull_request]
+jobs:
+  Check-Dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls
