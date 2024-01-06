@@ -3,7 +3,7 @@ TermBrowse (Short for Terminal Browser) is a customizable terminal-based browser
 ## Features
 * **Customizability:** You can customize TermBrowse to do more stuff, like only getting and printing a specific div, instead of the entire site.
 * **Speed:** Since it has only 21 lines of code initially, it is faster than almost all the browsers out there. Your only limit is your internet speed.
-## Contributing:
+## Contributing/Using:
 To help make this browser better, here is what you need to do:
 First, you need to fork this repository (look for the fork button on the top right corner of the repo), then clone the repository with this command:
 ```
@@ -26,8 +26,16 @@ or, for legacy terminals:
 ```
 source ./bin/activate
 ```
+Now, install the necessary packages with:
+```
+pip install -r requirements.txt
+```
+To try the browser out, run `python3 ./src/main.py`. If you want to keep using it, stop right here.
+### Contributing only:
+
 Make improvements, remembering to commit and push.
 Finally, make a pull request. I will review it then accept or deny it.
+
 ## Customizing TermBrowse
 First, fork the browser on GitHub, then follow the "Contributing" instructions.
 ### PLEASE DO NOT OPEN A PULL REQUEST FOR CUSTOMIZATIONS. THANKS.
