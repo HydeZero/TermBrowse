@@ -2,7 +2,7 @@
 TermBrowse (Short for Terminal Browser) is a customizable terminal-based browser made in Python.
 ## Features
 * **Customizability:** You can customize TermBrowse to do more stuff, like only getting and printing a specific div, instead of the entire site.
-* **Speed:** Since it has only 21 lines of code initially, it is faster than almost all the browsers out there. Your only limit is your internet speed.
+* **Speed:** It's fast to open and use. The only limit here is your internet speed.
 ## Contributing/Using:
 To help make this browser better, here is what you need to do:
 First, you need to fork this repository (look for the fork button on the top right corner of the repo), then clone the repository with this command:
