@@ -1,4 +1,4 @@
-name: Test Dependencies And Errors (Linux)
+name: Test Dependencies And Errors (Windows)
 
 on: [pull_request, push]
 jobs:
@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - run: cd ${{ github.workspace }}
       - run: python -m venv .\
-      - run: source .\scripts\activate.ps1
+      - run: .\scripts\activate.ps1
       - run: pip install -r requirements.txt
-      - run: python3 -m py_compile .\src\main.py
+      - run: python -m py_compile .\src\main.py
       
