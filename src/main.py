@@ -1,9 +1,17 @@
 from bs4 import BeautifulSoup
 import requests
 import subprocess
+import sys
+
+isClear = False
+
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        if sys.argv[1] == "clear":
+            isClear = True
 
 def GetSite(site):
-    subprocess.run(['clear'])
+    subprocess.run('clear') if isClear else print("PASS CLEAR AS AN ARGUMENT TO CLEAR THE SCREEN")
     print("Getting URL...")
     try:
         r = requests.get(site)
