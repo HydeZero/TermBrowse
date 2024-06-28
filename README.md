@@ -33,7 +33,8 @@ pip install -r requirements.txt
 To try the browser out, run `python3 ./src/main.py`. If you want to keep using it, stop right here.
 ### Contributing only:
 
-Make improvements, remembering to commit and push.
+First off, fork the repository, then pull it to your device.
+Now, make improvements, remembering to commit and push.
 Finally, make a pull request. I will review it then accept or deny it.
 
 ## Customizing TermBrowse
